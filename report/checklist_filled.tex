@@ -1,0 +1,88 @@
+\section*{NeurIPS Paper Checklist}
+
+% Instructions removed per template requirement.
+% All \answerTODO{} replaced with appropriate answers for this submission.
+
+\begin{enumerate}
+
+\item {\bf Claims}
+    \item[] Question: Do the main claims made in the abstract and introduction accurately reflect the paper's contributions and scope?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The abstract and Section~\ref{sec:intro} state the exact evaluated scope: UTKFace, ResNet18, 20 clients, 8 clients/round, 30 rounds, one protected attribute (\texttt{race\_bin}), and the full 189-run condition grid.
+
+\item {\bf Limitations}
+    \item[] Question: Does the paper discuss the limitations of the work performed by the authors?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:discussion} (``Limitations'' paragraph) explicitly discusses single-dataset and single-seed scope, missing external baselines and centralized oracle, binary protected-attribute proxying, strict non-IID degeneracy, and framing/incentive-model boundaries.
+
+\item {\bf Theory assumptions and proofs}
+    \item[] Question: For each theoretical result, does the paper provide the full set of assumptions and a complete (and correct) proof?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: The submission is empirical and does not claim a new theoretical theorem requiring proof.
+
+\item {\bf Experimental result reproducibility}
+    \item[] Question: Does the paper fully disclose all the information needed to reproduce the main experimental results of the paper?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:experiments} and Appendix~\ref{app:details} specify the full hyperparameter grid (Table~\ref{tab:hparams}), data splits, optimizer settings, seed strategy, and all artifact file names used to generate manuscript tables/figures.
+
+\item {\bf Open access to data and code}
+    \item[] Question: Does the paper provide open access to the data and code?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: UTKFace is a publicly available dataset. The \texttt{fl\_fairness} codebase will be released as an anonymised repository on submission and fully de-anonymised upon acceptance.
+
+\item {\bf Experimental setting/details}
+    \item[] Question: Does the paper specify all the training and test details necessary to understand the results?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:experiments} and Appendix~\ref{app:details} (Tables~\ref{tab:partition_stats} and~\ref{tab:hparams}) provide complete training configuration including optimisers, learning-rate schedules, local epochs, batch size, and evaluation protocol.
+
+\item {\bf Experiment statistical significance}
+    \item[] Question: Does the paper report error bars suitably and correctly defined?
+    \item[] Answer: \answerNo{}
+    \item[] Justification: The submitted full profile is a single-seed run (seed 42), so no confidence intervals or multi-seed error bars are reported. This is explicitly stated as a limitation.
+
+\item {\bf Experiments compute resources}
+    \item[] Question: Does the paper provide sufficient information on the computer resources needed to reproduce the experiments?
+    \item[] Answer: \answerNo{}
+    \item[] Justification: The paper reports runtime statistics (per-run and cumulative hours), but exact hardware SKU details are not included in this draft.
+
+\item {\bf Code of ethics}
+    \item[] Question: Does the research conform with the NeurIPS Code of Ethics?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: We use a publicly available facial-attribute dataset (UTKFace) in accordance with its terms of use. The research goal is to \emph{improve} demographic fairness in machine-learning systems, which aligns with the Code of Ethics. We discuss potential dual-use concerns (attacks that could be misused to unfairly benefit one group) in Section~\ref{sec:discussion}.
+
+\item {\bf Broader impacts}
+    \item[] Question: Does the paper discuss both potential positive societal impacts and negative societal impacts?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: Section~\ref{sec:discussion} discusses the positive impact (enabling fairer FL models without centralising sensitive data) and potential negative impact (dual-use of intervention techniques to \emph{skew} fairness rather than improve it). Mitigations via server auditing/stabilization protocols are proposed.
+
+\item {\bf Safeguards}
+    \item[] Question: Does the paper describe safeguards for responsible release?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: UTKFace is a publicly licensed dataset. No new dataset is introduced. The codebase will be released under the MIT licence with a usage note discouraging use of the intervention mechanisms for purposes other than improving demographic fairness.
+
+\item {\bf Licenses for existing assets}
+    \item[] Question: Are existing assets properly credited?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: UTKFace is cited and used under its research-use licence. ResNet18 is used via the \texttt{torchvision.models} module (BSD licence). All third-party Python libraries are used under their respective open-source licences.
+
+\item {\bf New assets}
+    \item[] Question: Are new assets introduced in the paper well documented?
+    \item[] Answer: \answerYes{}
+    \item[] Justification: The \texttt{fl\_fairness} codebase (new asset) will include a \texttt{README.md}, environment specification, and step-by-step reproduction instructions attached as supplemental material.
+
+\item {\bf Crowdsourcing and research with human subjects}
+    \item[] Question: Does the paper include details about crowdsourcing or human-subjects research?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: No crowdsourcing or new data collection with human subjects is performed. UTKFace is a pre-existing publicly released dataset.
+
+\item {\bf Institutional review board (IRB) approvals}
+    \item[] Question: Does the paper describe IRB approvals for human-subjects research?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: No new human-subjects research is conducted. The paper uses a pre-existing publicly available dataset (UTKFace).
+
+\item {\bf Declaration of LLM usage}
+    \item[] Question: Does the paper describe the usage of LLMs if it is an important component of the core methods?
+    \item[] Answer: \answerNA{}
+    \item[] Justification: LLMs are not used as a component of the core methodology. They were used only for minor writing assistance and do not impact scientific methodology, rigour, or originality.
+
+\end{enumerate}

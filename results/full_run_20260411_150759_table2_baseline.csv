@@ -1,0 +1,10 @@
+run_index,run_key,category,condition_name,attack,defense,split_name,optimizer_name,protected_attr,seed,stopped_reason,finished_round,total_duration_sec,final_val_accuracy,final_val_demographic_parity_gap,final_val_equalized_odds_gap
+1,r001__vanilla__split_iid__opt_sgd__attr_race_bin__seed_42,baseline,vanilla,none,none,iid,sgd,race_bin,42,completed,30,210.12445330619812,0.9181434599156119,0.02298554038400502,0.06065642413115599
+2,r002__vanilla__split_iid__opt_adamw__attr_race_bin__seed_42,baseline,vanilla,none,none,iid,adamw,race_bin,42,completed,30,212.78230500221252,0.929676511954993,0.039954599856269535,0.0805037523754308
+3,r003__vanilla__split_iid__opt_fedprox__attr_race_bin__seed_42,baseline,vanilla,none,none,iid,fedprox,race_bin,42,completed,30,219.93630242347717,0.9215189873417722,0.023431778176876417,0.05322253357812349
+4,r004__vanilla__split_dirichlet_0_5__opt_sgd__attr_race_bin__seed_42,baseline,vanilla,none,none,dirichlet_0_5,sgd,race_bin,42,completed,30,222.59331727027893,0.8562587904360056,0.07387829078901997,0.13683769768415627
+5,r005__vanilla__split_dirichlet_0_5__opt_adamw__attr_race_bin__seed_42,baseline,vanilla,none,none,dirichlet_0_5,adamw,race_bin,42,completed,30,214.20111989974976,0.8410689170182841,0.002087252370659709,0.017115560882746905
+6,r006__vanilla__split_dirichlet_0_5__opt_fedprox__attr_race_bin__seed_42,baseline,vanilla,none,none,dirichlet_0_5,fedprox,race_bin,42,completed,30,223.59762835502625,0.7170182841068917,0.02574094710965702,0.03384546010886713
+7,r007__vanilla__split_strict_non_iid__opt_sgd__attr_race_bin__seed_42,baseline,vanilla,none,none,strict_non_iid,sgd,race_bin,42,completed,30,225.04518580436707,0.48241912798874825,0.0,0.0
+8,r008__vanilla__split_strict_non_iid__opt_adamw__attr_race_bin__seed_42,baseline,vanilla,none,none,strict_non_iid,adamw,race_bin,42,completed,30,227.4594886302948,0.8540084388185654,0.01058638188061578,0.023021986415661888
+9,r009__vanilla__split_strict_non_iid__opt_fedprox__attr_race_bin__seed_42,baseline,vanilla,none,none,strict_non_iid,fedprox,race_bin,42,completed,30,246.30130577087402,0.48241912798874825,0.0,0.0

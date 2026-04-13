@@ -1,0 +1,357 @@
+% ══════════════════════════════════════════════════════════════════════════════
+%  fl_fairness_refs.bib  —  References for "Fair by Force: Adversarial
+%  Fairness Interventions and Robustness Counter-Measures in FL"
+%  NeurIPS 2026 Submission
+% ══════════════════════════════════════════════════════════════════════════════
+
+% ─── Federated Learning Foundations ──────────────────────────────────────────
+
+@inproceedings{mcmahan2017fedavg,
+  title     = {Communication-Efficient Learning of Deep Networks from
+               Decentralized Data},
+  author    = {McMahan, Brendan and Moore, Eider and Ramage, Daniel and
+               Hampson, Seth and y Arcas, Blaise Ag\"uera},
+  booktitle = {Proceedings of the 20th International Conference on Artificial
+               Intelligence and Statistics (AISTATS)},
+  pages     = {1273--1282},
+  year      = {2017},
+  publisher = {PMLR},
+  volume    = {54}
+}
+
+@article{kairouz2021advances,
+  title   = {Advances and Open Problems in Federated Learning},
+  author  = {Kairouz, Peter and McMahan, H.~Brendan and Avent, Brendan and
+             others},
+  journal = {Foundations and Trends in Machine Learning},
+  volume  = {14},
+  number  = {1--2},
+  pages   = {1--210},
+  year    = {2021}
+}
+
+@inproceedings{li2020fedprox,
+  title     = {Federated Optimization in Heterogeneous Networks},
+  author    = {Li, Tian and Sahu, Anit Kumar and Zaheer, Manzil and
+               Sanjabi, Maziar and Smola, Alexander and Smith, Virginia},
+  booktitle = {Proceedings of the 3rd Conference on Machine Learning and
+               Systems (MLSys)},
+  year      = {2020}
+}
+
+@inproceedings{reddi2021adaptive,
+  title     = {Adaptive Federated Optimization},
+  author    = {Reddi, Sashank and Charles, Zachary and Zaheer, Manzil and
+               Garrett, Zachary and Rush, Keith and Kone{\v{c}}n{\'y}, Jakub
+               and Kumar, Sanjiv and McMahan, H.~Brendan},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2021}
+}
+
+@article{li2019convergence,
+  title   = {Convergence of FedAvg on Non-IID Data},
+  author  = {Li, Xiang and Huang, Kaixuan and Yang, Wenhao and Wang, Shusen
+             and Zhang, Zhihua},
+  journal = {arXiv preprint arXiv:1907.02189},
+  year    = {2019}
+}
+
+@inproceedings{chen2020toward,
+  title     = {Toward Understanding the Influence of Individual Clients in
+               Federated Learning},
+  author    = {Chen, Yudong and Duchi, John and Wainwright, Martin},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {35},
+  number    = {8},
+  pages     = {7167--7175},
+  year      = {2021}
+}
+
+@article{li2022federated,
+  title   = {Federated Learning on Non-IID Data Silos: An Experimental Study},
+  author  = {Li, Qinbin and Diao, Yiqun and Chen, Quan and He, Bingsheng},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  year    = {2022}
+}
+
+% ─── Non-IID Heterogeneity ────────────────────────────────────────────────────
+
+@inproceedings{zhao2018noniid,
+  title     = {Federated Learning with Non-IID Data},
+  author    = {Zhao, Yue and Li, Meng and Lai, Liangzhen and Sahu, Nikhil and
+               Mardian, Denny and Talwalkar, Ameet},
+  booktitle = {arXiv preprint arXiv:1806.00582},
+  year      = {2018}
+}
+
+@inproceedings{hsieh2020quagmire,
+  title     = {Quagmire in the Swamp of Non-IID Data: Empirical Study of
+               Heterogeneous Federated Learning},
+  author    = {Hsieh, Kevin and Phanishayee, Amar and Mutlu, Onur and
+               Gibbons, Phillip},
+  booktitle = {arXiv preprint arXiv:2008.04796},
+  year      = {2020}
+}
+
+@inproceedings{yurochkin2019bayesian,
+  title     = {Bayesian Nonparametric Federated Learning of Neural Networks},
+  author    = {Yurochkin, Mikhail and Agarwal, Mayank and Ghosh, Soumya and
+               Greenewald, Kristjan and Hoang, Trong Nghia and
+               Khazaeni, Yasaman},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {7252--7261},
+  year      = {2019},
+  publisher = {PMLR}
+}
+
+% ─── Group Fairness (Centralised) ────────────────────────────────────────────
+
+@inproceedings{hardt2016equality,
+  title     = {Equality of Opportunity in Supervised Learning},
+  author    = {Hardt, Moritz and Price, Eric and Srebro, Nathan},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {29},
+  year      = {2016}
+}
+
+@inproceedings{zhang2018mitigating,
+  title     = {Mitigating Unwanted Biases with Adversarial Learning},
+  author    = {Zhang, Brian Hu and Lemoine, Blake and Mitchell, Margaret},
+  booktitle = {Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and
+               Society (AIES)},
+  pages     = {335--340},
+  year      = {2018}
+}
+
+@inproceedings{roh2020fr,
+  title     = {FR-Train: A Mutual Information-Based Approach to Fair and
+               Robust Training},
+  author    = {Roh, Yuji and Lee, Kangwook and Whang, Steven Euijong and
+               Suh, Changho},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {8147--8157},
+  year      = {2020},
+  publisher = {PMLR}
+}
+
+@inproceedings{creager2019flexibly,
+  title     = {Flexibly Fair Representation Learning by Disentanglement},
+  author    = {Creager, Elliot and Madras, David and Jacobsen, J{\"o}rn-Henrik
+               and Weis, Marissa and Swersky, Kevin and Pitassi, Toniann and
+               Zemel, Richard},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {1436--1445},
+  year      = {2019},
+  publisher = {PMLR}
+}
+
+@inproceedings{dwork2012fairness,
+  title     = {Fairness Through Awareness},
+  author    = {Dwork, Cynthia and Hardt, Moritz and Pitassi, Toniann and
+               Reingold, Omer and Zemel, Richard},
+  booktitle = {Proceedings of the 3rd Innovations in Theoretical Computer
+               Science Conference (ITCS)},
+  pages     = {214--226},
+  year      = {2012}
+}
+
+% ─── Group Fairness in FL ─────────────────────────────────────────────────────
+
+@inproceedings{du2021fairness,
+  title     = {Fairness-Aware Agnostic Federated Learning},
+  author    = {Du, Wei and Xu, Depeng and Wu, Xintao and Tong, Hanghang},
+  booktitle = {Proceedings of the SIAM International Conference on Data
+               Mining (SDM)},
+  pages     = {181--189},
+  year      = {2021}
+}
+
+@inproceedings{papadaki2022anticipating,
+  title     = {Anticipating Performativity by Predicting from Predictions},
+  author    = {Papadaki, Angeliki and Martinez, Natalia and Bertran, Martin
+               and Sapiro, Guillermo and Rodrigues, Miguel},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2022}
+}
+
+@inproceedings{hamman2023demystifying,
+  title     = {Demystifying Local and Global Fairness Trade-offs in Federated
+               Learning Using Partial Information},
+  author    = {Hamman, Faisal and Deligiannidis, George and Karbasi, Amin
+               and Feizi, Soheil and Guo, Wenshuo},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2023}
+}
+
+@inproceedings{ezzeldin2023fairfed,
+  title     = {FairFed: Enabling Group Fairness in Federated Learning},
+  author    = {Ezzeldin, Yahya H. and Yan, Shen and He, Bo and Ferrara,
+               Emilio and Avestimehr, A.~Salman},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {37},
+  year      = {2023}
+}
+
+@inproceedings{abay2020mitigating,
+  title     = {Mitigating Bias in Federated Learning},
+  author    = {Abay, Nazmiye Ceren and Zhou, Yi and Baracaldo, Nathalie and
+               Ludwig, Heiko and Rabin, James},
+  booktitle = {arXiv preprint arXiv:2012.02447},
+  year      = {2020}
+}
+
+@inproceedings{mohri2019agnostic,
+  title     = {Agnostic Federated Learning},
+  author    = {Mohri, Mehryar and Sivek, Gary and Suresh, Ananda Theertha},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {4615--4625},
+  year      = {2019},
+  publisher = {PMLR}
+}
+
+@inproceedings{li2021ditto,
+  title     = {Ditto: Fair and Robust Federated Learning Through
+               Personalization},
+  author    = {Li, Tian and Hu, Shengyuan and Beirami, Ahmad and Smith,
+               Virginia},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {6357--6368},
+  year      = {2021},
+  publisher = {PMLR}
+}
+
+@inproceedings{li2020qffl,
+  title     = {Fair Resource Allocation in Federated Learning},
+  author    = {Li, Tian and Sanjabi, Maziar and Beirami, Ahmad and Smith,
+               Virginia},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2020}
+}
+
+% ─── Adversarial / Byzantine Robustness in FL ────────────────────────────────
+
+@inproceedings{blanchard2017machine,
+  title     = {Machine Learning with Adversaries: Byzantine Tolerant Gradient
+               Descent},
+  author    = {Blanchard, Peva and El Mhamdi, El Mahdi and Guerraoui, Rachid
+               and Stainer, Julien},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {30},
+  year      = {2017}
+}
+
+@inproceedings{yin2018byzantine,
+  title     = {Byzantine-Robust Distributed Learning: Towards Optimal
+               Statistical Rates},
+  author    = {Yin, Dong and Chen, Yudong and Kannan, Ramchandran and
+               Bartlett, Peter},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {5650--5659},
+  year      = {2018},
+  publisher = {PMLR}
+}
+
+@inproceedings{cao2020fltrust,
+  title     = {FLTrust: Byzantine-Robust Federated Learning via Trust
+               Bootstrapping},
+  author    = {Cao, Xiaoyu and Fang, Minghong and Liu, Jia and Gong, Neil
+               Zhenqiang},
+  booktitle = {Network and Distributed System Security Symposium (NDSS)},
+  year      = {2022}
+}
+
+@inproceedings{bagdasaryan2020backdoor,
+  title     = {How to Backdoor Federated Learning},
+  author    = {Bagdasaryan, Eugene and Veit, Andreas and Hua, Yiqing and
+               Estrin, Deborah and Shmatikov, Vitaly},
+  booktitle = {Proceedings of the 23rd International Conference on Artificial
+               Intelligence and Statistics (AISTATS)},
+  pages     = {2938--2948},
+  year      = {2020},
+  publisher = {PMLR}
+}
+
+@article{sun2021fl,
+  title   = {FL-WBC: Enhancing Robustness Against Model Poisoning Attacks in
+             Federated Learning from a Client Perspective},
+  author  = {Sun, Jingwei and Li, Ang and DiValentin, Louis and Hassanzadeh,
+             Amin and Chen, Yiran and Li, Hai},
+  journal = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume  = {34},
+  year    = {2021}
+}
+
+% ─── Gradient Methods ────────────────────────────────────────────────────────
+
+@inproceedings{yu2020gradient,
+  title     = {Gradient Surgery for Multi-Task Learning},
+  author    = {Yu, Tianhe and Kumar, Saurabh and Gupta, Abhishek and Levine,
+               Sergey and Hausman, Karol and Finn, Chelsea},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {33},
+  pages     = {5824--5836},
+  year      = {2020}
+}
+
+% ─── Representation Learning / Domain Adaptation ─────────────────────────────
+
+@inproceedings{ganin2016domain,
+  title     = {Domain-Adversarial Training of Neural Networks},
+  author    = {Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and
+               Germain, Pascal and Larochelle, Hugo and Laviolette,
+               Fran{\c{c}}ois and Marchand, Mario and Lempitsky, Victor},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {17},
+  number    = {59},
+  pages     = {1--35},
+  year      = {2016}
+}
+
+% ─── Mutual Information Estimation ───────────────────────────────────────────
+
+@inproceedings{belghazi2018mine,
+  title     = {Mutual Information Neural Estimation},
+  author    = {Belghazi, Mohamed Ishmael and Baratin, Aristide and Rajeshwar,
+               Sai and Ozair, Sherjil and Bengio, Yoshua and Courville,
+               Aaron and Hjelm, Devon},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {531--540},
+  year      = {2018},
+  publisher = {PMLR}
+}
+
+% ─── Architecture ─────────────────────────────────────────────────────────────
+
+@inproceedings{he2016resnet,
+  title     = {Deep Residual Learning for Image Recognition},
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun,
+               Jian},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and
+               Pattern Recognition (CVPR)},
+  pages     = {770--778},
+  year      = {2016}
+}
+
+% ─── Dataset ─────────────────────────────────────────────────────────────────
+
+@inproceedings{zhang2017utkface,
+  title     = {Age Progression/Regression by Conditional Adversarial
+               Autoencoder},
+  author    = {Zhang, Zhifei and Song, Yang and Qi, Hairong},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision and
+               Pattern Recognition (CVPR)},
+  pages     = {5810--5818},
+  year      = {2017}
+}
+
+% ─── Privacy ─────────────────────────────────────────────────────────────────
+
+@article{dwork2014differential,
+  title   = {The Algorithmic Foundations of Differential Privacy},
+  author  = {Dwork, Cynthia and Roth, Aaron},
+  journal = {Foundations and Trends in Theoretical Computer Science},
+  volume  = {9},
+  number  = {3--4},
+  pages   = {211--407},
+  year    = {2014}
+}

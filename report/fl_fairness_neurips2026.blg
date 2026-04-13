@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: fl_fairness_neurips2026.aux
+The style file: plainnat.bst
+Database file #1: fl_fairness_refs.bib
+Warning--can't use both volume and number fields in chen2020toward
+Warning--empty booktitle in ganin2016domain
+Warning--can't use both volume and number fields in ganin2016domain
+You've used 32 entries,
+            2773 wiz_defined-function locations,
+            744 strings with 11241 characters,
+and the built_in function-call counts, 20482 in all, are:
+= -- 1753
+> -- 1481
+< -- 23
++ -- 495
+- -- 462
+* -- 1711
+:= -- 3002
+add.period$ -- 105
+call.type$ -- 32
+change.case$ -- 249
+chr.to.int$ -- 31
+cite$ -- 67
+duplicate$ -- 914
+empty$ -- 1515
+format.name$ -- 494
+if$ -- 4406
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 32
+newline$ -- 168
+num.names$ -- 128
+pop$ -- 573
+preamble$ -- 1
+purify$ -- 217
+quote$ -- 0
+skip$ -- 770
+stack$ -- 0
+substring$ -- 670
+swap$ -- 232
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 352
+warning$ -- 3
+while$ -- 146
+width$ -- 0
+write$ -- 424
+(There were 3 warnings)

@@ -1,0 +1,112 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Contributions.}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\newlabel{sec:related}{{2}{2}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Federated optimisation.}{2}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Non-IID heterogeneity.}{2}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Group fairness in centralised learning.}{2}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Group fairness in FL.}{2}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Adversarial robustness in FL.}{2}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Formulation}{2}{section.3}\protected@file@percent }
+\newlabel{sec:problem}{{3}{2}{Problem Formulation}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Federated Learning Setup}{2}{subsection.3.1}\protected@file@percent }
+\newlabel{eq:global_obj}{{1}{2}{Federated Learning Setup}{equation.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Fairness Metrics}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:metrics}{{3.2}{3}{Fairness Metrics}{subsection.3.2}{}}
+\newlabel{eq:dp}{{2}{3}{Fairness Metrics}{equation.2}{}}
+\newlabel{eq:eop}{{3}{3}{Fairness Metrics}{equation.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Data Partitioning Regimes}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Methodology}{3}{section.4}\protected@file@percent }
+\newlabel{sec:method}{{4}{3}{Methodology}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Client-Side Fairness Interventions}{3}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:attacks}{{4.1}{3}{Client-Side Fairness Interventions}{subsection.4.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{I$_1$ (legacy A$_1$): Loss Reweighting (LR).}{3}{section*.7}\protected@file@percent }
+\newlabel{eq:a1}{{4}{3}{I$_1$ (legacy A$_1$): Loss Reweighting (LR)}{equation.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{I$_2$ (legacy A$_2$): Gradient Projection (GP).}{3}{section*.8}\protected@file@percent }
+\newlabel{eq:a2}{{5}{3}{I$_2$ (legacy A$_2$): Gradient Projection (GP)}{equation.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{I$_3$ (legacy A$_3$): Fairness-Constrained Local Optimisation (FCLO).}{3}{section*.9}\protected@file@percent }
+\newlabel{eq:a3}{{6}{3}{I$_3$ (legacy A$_3$): Fairness-Constrained Local Optimisation (FCLO)}{equation.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{I$_4$ (legacy A$_4$): Representation Disentanglement (RD).}{3}{section*.10}\protected@file@percent }
+\newlabel{eq:a4}{{7}{3}{I$_4$ (legacy A$_4$): Representation Disentanglement (RD)}{equation.7}{}}
+\@writefile{toc}{\contentsline {paragraph}{I$_5$ (legacy A$_5$): Full Bi-level Debiasing (FBD).}{4}{section*.11}\protected@file@percent }
+\newlabel{eq:a5}{{8}{4}{I$_5$ (legacy A$_5$): Full Bi-level Debiasing (FBD)}{equation.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Server Auditing and Stabilization Protocols}{4}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:defenses}{{4.2}{4}{Server Auditing and Stabilization Protocols}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{P$_1$ (legacy D$_1$): Fairness-Audited Aggregation (FAA).}{4}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{P$_2$ (legacy D$_2$): Gradient Similarity Filtering (GSF).}{4}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{P$_3$ (legacy D$_3$): Proximal Fairness Bounding (PFB).}{4}{section*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{P$_4$ (legacy D$_4$): Representation Fingerprinting (RF).}{4}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{P$_5$ (legacy D$_5$): Stability Testing (ST).}{4}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Compatibility Design and Evaluation Matrix}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Loss/gradient/constraint family: intervention-only vs P$_1$--P$_3$. Each cell reports mean (Acc / EO gap), aggregated over split$\times $optimizer.}}{4}{table.1}\protected@file@percent }
+\newlabel{tab:admatrix_shallow}{{1}{4}{Loss/gradient/constraint family: intervention-only vs P$_1$--P$_3$. Each cell reports mean (Acc / EO gap), aggregated over split$\times $optimizer}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Representation family: intervention-only vs P$_3$--P$_5$. P$_3$ is the shared update-space stabilizer across families.}}{4}{table.2}\protected@file@percent }
+\newlabel{tab:admatrix_repr}{{2}{4}{Representation family: intervention-only vs P$_3$--P$_5$. P$_3$ is the shared update-space stabilizer across families}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Setup}{4}{section.5}\protected@file@percent }
+\newlabel{sec:experiments}{{5}{4}{Experimental Setup}{section.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Dataset.}{4}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Model.}{5}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Federation.}{5}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Training.}{5}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Evaluation protocol.}{5}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Benchmark scope and exclusions.}{5}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{5}{section.6}\protected@file@percent }
+\newlabel{sec:results}{{6}{5}{Results}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Vanilla FL Baseline}{5}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Baseline runs (condition \texttt  {vanilla}) for each split and optimizer.}}{5}{table.3}\protected@file@percent }
+\newlabel{tab:baseline}{{3}{5}{Baseline runs (condition \texttt {vanilla}) for each split and optimizer}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Intervention-Only Behavior}{5}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Protocol Effects and Metric Disagreement}{5}{subsection.6.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Baseline heatmaps for accuracy (left) and EO gap (right): AdamW stays stable across splits, while SGD/FedProx fail on strict non-IID.}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:baseline_heatmaps}{{1}{6}{Baseline heatmaps for accuracy (left) and EO gap (right): AdamW stays stable across splits, while SGD/FedProx fail on strict non-IID}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Intervention-only averages across split$\times $optimizer.}}{6}{table.4}\protected@file@percent }
+\newlabel{tab:attack_only_summary}{{4}{6}{Intervention-only averages across split$\times $optimizer}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Intervention-only means by family: representation-level interventions (I$_4$, I$_5$) incur the largest utility cost.}}{6}{figure.2}\protected@file@percent }
+\newlabel{fig:attack_only_summary}{{2}{6}{Intervention-only means by family: representation-level interventions (I$_4$, I$_5$) incur the largest utility cost}{figure.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Protocol-wise averages over all compatible interventions, splits, and optimizers.}}{6}{table.5}\protected@file@percent }
+\newlabel{tab:defense_summary}{{5}{6}{Protocol-wise averages over all compatible interventions, splits, and optimizers}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Intervention-protocol matrix heatmaps: P$_4$ often maximizes accuracy but tends to worsen EO relative to P$_1$.}}{7}{figure.3}\protected@file@percent }
+\newlabel{fig:ad_matrix}{{3}{7}{Intervention-protocol matrix heatmaps: P$_4$ often maximizes accuracy but tends to worsen EO relative to P$_1$}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Optimizer means by experimental category.}}{7}{table.6}\protected@file@percent }
+\newlabel{tab:optimizer_robustness}{{6}{7}{Optimizer means by experimental category}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Optimizer-Conditional Robustness and Degenerate Regimes}{7}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Effect of removing degenerate runs (Acc $\leq $ 0.55) from intervention+protocol aggregates.}}{7}{table.7}\protected@file@percent }
+\newlabel{tab:degenerate_filter}{{7}{7}{Effect of removing degenerate runs (Acc $\leq $ 0.55) from intervention+protocol aggregates}{table.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Pareto Frontier, Round Dynamics, and Split Diagnostics}{7}{subsection.6.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Accuracy-EO scatter across all 189 runs: the top-accuracy point and largest-EO outlier are both visible and should be interpreted jointly.}}{8}{figure.4}\protected@file@percent }
+\newlabel{fig:scatter}{{4}{8}{Accuracy-EO scatter across all 189 runs: the top-accuracy point and largest-EO outlier are both visible and should be interpreted jointly}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Optimizer-specific Pareto fronts after excluding degenerate runs (Acc $\leq $ 0.55): AdamW forms the strongest frontier across most of the practical operating range.}}{8}{figure.5}\protected@file@percent }
+\newlabel{fig:optimizer_pareto}{{5}{8}{Optimizer-specific Pareto fronts after excluding degenerate runs (Acc $\leq $ 0.55): AdamW forms the strongest frontier across most of the practical operating range}{figure.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Convergence proxy by split/optimizer: fraction of runs with $|\Delta \text  {Acc}_{26\rightarrow 30}| < 0.01$.}}{8}{table.8}\protected@file@percent }
+\newlabel{tab:convergence}{{8}{8}{Convergence proxy by split/optimizer: fraction of runs with $|\Delta \text {Acc}_{26\rightarrow 30}| < 0.01$}{table.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{8}{section.7}\protected@file@percent }
+\newlabel{sec:discussion}{{7}{8}{Discussion}{section.7}{}}
+\@writefile{toc}{\contentsline {paragraph}{Effect of heterogeneity.}{8}{section*.23}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Round-wise dynamics for I$_4$ (A$_4$): collapse behavior depends strongly on split and optimizer, and several non-IID cells remain non-stationary at 30 rounds.}}{9}{figure.6}\protected@file@percent }
+\newlabel{fig:a4_dynamics}{{6}{9}{Round-wise dynamics for I$_4$ (A$_4$): collapse behavior depends strongly on split and optimizer, and several non-IID cells remain non-stationary at 30 rounds}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Per-client sample and rate diagnostics: strict non-IID reaches extreme 0/1 label and protected-group regimes, explaining frequent degenerate operating points.}}{9}{figure.7}\protected@file@percent }
+\newlabel{fig:distributions}{{7}{9}{Per-client sample and rate diagnostics: strict non-IID reaches extreme 0/1 label and protected-group regimes, explaining frequent degenerate operating points}{figure.7}{}}
+\@writefile{toc}{\contentsline {paragraph}{Intervention complexity at scale.}{9}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Protocol effectiveness.}{9}{section*.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Optimiser sensitivity.}{9}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Mechanistic interpretation (hypothesis-level).}{9}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Framing boundary.}{9}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations.}{9}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{10}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion}{{8}{10}{Conclusion}{section.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Extended Experimental Details}{10}{appendix.A}\protected@file@percent }
+\newlabel{app:details}{{A}{10}{Extended Experimental Details}{appendix.A}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}UTKFace Preprocessing}{10}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Client Partitioning Details}{10}{subsection.A.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Measured client-level data statistics by split (seed 42).}}{10}{table.9}\protected@file@percent }
+\newlabel{tab:partition_stats}{{9}{10}{Measured client-level data statistics by split (seed 42)}{table.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Full Hyperparameter Table}{10}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Artifact Files}{10}{subsection.A.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Complete hyperparameter grid used in all experiments.}}{11}{table.10}\protected@file@percent }
+\newlabel{tab:hparams}{{10}{11}{Complete hyperparameter grid used in all experiments}{table.10}{}}
+\gdef \@abspage@last{11}

@@ -1,0 +1,484 @@
+{
+  "rows": [
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 0,
+      "samples": 1008,
+      "label_positive_rate": 0.49503968253968256,
+      "protected_positive_rate": 0.39285714285714285
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 1,
+      "samples": 1008,
+      "label_positive_rate": 0.49503968253968256,
+      "protected_positive_rate": 0.39285714285714285
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 2,
+      "samples": 1008,
+      "label_positive_rate": 0.48313492063492064,
+      "protected_positive_rate": 0.36607142857142855
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 3,
+      "samples": 1008,
+      "label_positive_rate": 0.48214285714285715,
+      "protected_positive_rate": 0.39087301587301587
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 4,
+      "samples": 1008,
+      "label_positive_rate": 0.4603174603174603,
+      "protected_positive_rate": 0.35813492063492064
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 5,
+      "samples": 1008,
+      "label_positive_rate": 0.47023809523809523,
+      "protected_positive_rate": 0.4097222222222222
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 6,
+      "samples": 1008,
+      "label_positive_rate": 0.47023809523809523,
+      "protected_positive_rate": 0.3958333333333333
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 7,
+      "samples": 1008,
+      "label_positive_rate": 0.4781746031746032,
+      "protected_positive_rate": 0.3898809523809524
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 8,
+      "samples": 1008,
+      "label_positive_rate": 0.47023809523809523,
+      "protected_positive_rate": 0.3998015873015873
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 9,
+      "samples": 1008,
+      "label_positive_rate": 0.4603174603174603,
+      "protected_positive_rate": 0.37797619047619047
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 10,
+      "samples": 1007,
+      "label_positive_rate": 0.4756703078450844,
+      "protected_positive_rate": 0.39622641509433965
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 11,
+      "samples": 1007,
+      "label_positive_rate": 0.4528301886792453,
+      "protected_positive_rate": 0.38828202581926513
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 12,
+      "samples": 1007,
+      "label_positive_rate": 0.4637537239324727,
+      "protected_positive_rate": 0.40218470705064546
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 13,
+      "samples": 1007,
+      "label_positive_rate": 0.47368421052631576,
+      "protected_positive_rate": 0.38629592850049654
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 14,
+      "samples": 1007,
+      "label_positive_rate": 0.49751737835153925,
+      "protected_positive_rate": 0.38033763654419067
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 15,
+      "samples": 1007,
+      "label_positive_rate": 0.48758689175769615,
+      "protected_positive_rate": 0.3555114200595829
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 16,
+      "samples": 1007,
+      "label_positive_rate": 0.48957298907646474,
+      "protected_positive_rate": 0.3972194637537239
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 17,
+      "samples": 1007,
+      "label_positive_rate": 0.46871896722939427,
+      "protected_positive_rate": 0.4001986097318769
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 18,
+      "samples": 1007,
+      "label_positive_rate": 0.4985104270109235,
+      "protected_positive_rate": 0.39920556107249255
+    },
+    {
+      "split_name": "iid",
+      "seed": 42,
+      "client_id": 19,
+      "samples": 1007,
+      "label_positive_rate": 0.4548162859980139,
+      "protected_positive_rate": 0.3843098311817279
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 0,
+      "samples": 2295,
+      "label_positive_rate": 0.8191721132897604,
+      "protected_positive_rate": 0.39694989106753814
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 1,
+      "samples": 254,
+      "label_positive_rate": 0.03543307086614173,
+      "protected_positive_rate": 0.4015748031496063
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 2,
+      "samples": 99,
+      "label_positive_rate": 0.5656565656565656,
+      "protected_positive_rate": 0.3434343434343434
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 3,
+      "samples": 956,
+      "label_positive_rate": 0.805439330543933,
+      "protected_positive_rate": 0.39435146443514646
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 4,
+      "samples": 1731,
+      "label_positive_rate": 0.853264009243212,
+      "protected_positive_rate": 0.37377238590410167
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 5,
+      "samples": 644,
+      "label_positive_rate": 0.6226708074534162,
+      "protected_positive_rate": 0.37422360248447206
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 6,
+      "samples": 394,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.3756345177664975
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 7,
+      "samples": 1055,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.37251184834123224
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 8,
+      "samples": 210,
+      "label_positive_rate": 0.7571428571428571,
+      "protected_positive_rate": 0.4095238095238095
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 9,
+      "samples": 738,
+      "label_positive_rate": 0.994579945799458,
+      "protected_positive_rate": 0.44173441734417346
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 10,
+      "samples": 2205,
+      "label_positive_rate": 0.22993197278911565,
+      "protected_positive_rate": 0.38049886621315193
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 11,
+      "samples": 64,
+      "label_positive_rate": 0.71875,
+      "protected_positive_rate": 0.3125
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 12,
+      "samples": 633,
+      "label_positive_rate": 0.00315955766192733,
+      "protected_positive_rate": 0.37756714060031593
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 13,
+      "samples": 1077,
+      "label_positive_rate": 0.8607242339832869,
+      "protected_positive_rate": 0.4020427112349118
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 14,
+      "samples": 1547,
+      "label_positive_rate": 0.09631544925662573,
+      "protected_positive_rate": 0.3956043956043956
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 15,
+      "samples": 980,
+      "label_positive_rate": 0.06938775510204082,
+      "protected_positive_rate": 0.3836734693877551
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 16,
+      "samples": 540,
+      "label_positive_rate": 0.9796296296296296,
+      "protected_positive_rate": 0.39814814814814814
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 17,
+      "samples": 1274,
+      "label_positive_rate": 0.7276295133437991,
+      "protected_positive_rate": 0.38854003139717425
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 18,
+      "samples": 1360,
+      "label_positive_rate": 0.011764705882352941,
+      "protected_positive_rate": 0.3654411764705882
+    },
+    {
+      "split_name": "dirichlet_0_5",
+      "seed": 42,
+      "client_id": 19,
+      "samples": 2094,
+      "label_positive_rate": 0.4498567335243553,
+      "protected_positive_rate": 0.3968481375358166
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 0,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 1,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 2,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 3,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 4,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 5,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 6,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 0.44246031746031744
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 7,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 1.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 8,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 1.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 9,
+      "samples": 1008,
+      "label_positive_rate": 0.0,
+      "protected_positive_rate": 1.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 10,
+      "samples": 1007,
+      "label_positive_rate": 0.5322740814299901,
+      "protected_positive_rate": 0.46772591857000995
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 11,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 12,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 13,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 14,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 15,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 0.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 16,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 0.8540218470705064
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 17,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 1.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 18,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 1.0
+    },
+    {
+      "split_name": "strict_non_iid",
+      "seed": 42,
+      "client_id": 19,
+      "samples": 1007,
+      "label_positive_rate": 1.0,
+      "protected_positive_rate": 1.0
+    }
+  ]
+}
